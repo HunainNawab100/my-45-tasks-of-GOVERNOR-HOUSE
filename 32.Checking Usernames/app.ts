@@ -5,9 +5,9 @@ let current_users_lower :string[]=current_users.map(user=>user.toLocaleLowerCase
 
 for(let new_user of new_users){
 if(current_users_lower.includes(new_user.toLocaleLowerCase())){
-    console.log("Sorry $(new_user), that name is taken")
+    console.log(`Sorry ${new_user}, that name is taken`)
 }
 else{
-    console.log("Yes $(new_user), is still is available list ")
+    console.log(`Yes ${new_user}, is still is available list `)
 }
 }

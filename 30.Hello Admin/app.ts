@@ -5,7 +5,7 @@ for( let user of users){
     }
     
 else{
-    console.log('hello $(user), thank u for loggin in again')
+    console.log(`hello ${user}, thank u for loggin in again`)
 }
 }
 

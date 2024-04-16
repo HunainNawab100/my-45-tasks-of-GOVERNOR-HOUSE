@@ -1,5 +1,5 @@
 function CityCountry(city:string,country:string):string{
-    return'${city},${country}'
+    return`${city},${country}`
 }
 let c1 =CityCountry('lahore','pakistan')
 let c2 =CityCountry('tokyo','japan')

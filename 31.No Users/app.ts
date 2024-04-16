@@ -9,7 +9,7 @@ else{
             console.log(" hello admin , would u like to see a status report?")
         }
         else{
-            console.log("hello $(user), thank u for logging in again")
+            console.log(`hello ${user}, thank u for logging in again`)
         }
     }
 }

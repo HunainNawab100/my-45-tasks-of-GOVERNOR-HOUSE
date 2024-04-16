@@ -10,4 +10,4 @@ for (let i = 0 ;i < guest_list.length; i++) {
 
     console.log('Respected Sir/Medam'+guest_list[i]+ ',\nWe  invited you on  dinner tomorrow.\nthank you\n ');
 }
-console.log('Mr $(not_pressent) will not coming tommorrow dinner')
+console.log(`Mr ${not_pressent} will not coming tommorrow dinner`)

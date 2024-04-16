@@ -5,6 +5,6 @@ for (var _i = 0, users_1 = users; _i < users_1.length; _i++) {
         console.log("hello admin, would u like to see a status report ");
     }
     else {
-        console.log('hello $(user), thank u for loggin in again');
+        console.log(`hello ${user}, thank u for loggin in again`);
     }
 }

@@ -19,7 +19,7 @@ guest_list.unshift("shaheen","sarfaraz"," rizwan ");
 console.log('/nunfortunately we can not arrange big table, only two table allow')
 while(guest_list.length>2){
     let remove_guest = guest_list.pop();
-    console.log('Sorry Sir/Medam $(remove_guest) , you are not invited for   dinner tomorrow.');
+console.log(`Sorry Sir/Medam ${remove_guest} , you are not invited for   dinner tomorrow.`);
 }
 for (let i = 0; i < guest_list.length; i++) {
     console.log('Respected Sir/Medam'+guest_list[i]+ ',\nYou are still invited on tommorrow dinner \nthank you\n ');
